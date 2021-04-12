@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > footer {
+    background-color: darkturquoise;
+}
+
+body > footer > p {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+body > header {
+    background-color: darkturquoise;
+    color: white;
+    padding: 20px;
+}
+
+#header-nav {
+    margin: 0px;
+    display: flex;
+    padding-top: 10px;
+    color: white;
+    list-style: none;
+}
+
+body > header > nav > ul > li {
+    padding-left: 20px;
+}
+
+.header-left-side {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-right-side {
+    display: flex;
+    align-content: space-around; 
+}
+
+body > article {
+    margin: auto;
+    width: 80%;
+
+}
